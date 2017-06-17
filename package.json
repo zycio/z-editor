@@ -1,0 +1,33 @@
+{
+  "name": "z-editor",
+  "version": "0.0.1",
+  "description": "Simple WYSIWYG editor.",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zycio/z-editor.git"
+  },
+  "keywords": [
+    "zycio",
+    "z-editor"
+  ],
+  "author": "zycio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zycio/z-editor/issues"
+  },
+  "homepage": "https://github.com/zycio/z-editor#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-angular-templates": "^1.1.0",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^2.2.0",
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-uglify": "^3.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-injector": "^1.1.0",
+    "jit-grunt": "^0.10.0"
+  }
+}

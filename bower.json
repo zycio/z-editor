@@ -1,0 +1,26 @@
+{
+  "name": "z-editor",
+  "description": "Simple WYSIWYG editor.",
+  "main": "src/index.js",
+  "authors": [
+    "zycio"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "zycio",
+    "z-editor"
+  ],
+  "homepage": "https://github.com/zycio/z-editor",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.4",
+    "components-font-awesome": "^4.7.0",
+    "codemirror": "^5.26.0"
+  }
+}

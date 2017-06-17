@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="zycio">
+        <title>z-editor - demo</title>
+
+        <link href="libs/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link href="libs/editor/editor.min.css" rel="stylesheet">
+        <link href="libs/codemirror/codemirror.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="content" ng-controller="MainController as vm">
+            <z-editor data="vm.data"></z-editor>
+            data:
+            <br/>
+            <pre>{{vm.data | json}}</pre>
+        </div>
+
+        <script src="libs/angular/angular.min.js"></script>
+        <script src="libs/codemirror/codemirror.js"></script>
+        <script src="libs/codemirror/mode/xml/xml.js"></script>
+
+        <script src="libs/editor/editor.js"></script>
+
+        <script src="app.js"></script>
+    </body>
+</html>

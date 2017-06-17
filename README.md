@@ -1,2 +1,2 @@
 # z-editor
-Z-editor - simple wysiwyg editor
+Z-editor - simple WYSIWYG editor

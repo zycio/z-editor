@@ -1,0 +1,7 @@
+<div class="z-editor-panel">
+    <button ng-repeat="(name, option) in buttons"
+            ng-class="option.class"
+            ng-click="toggle(option.command)"
+            ng-disabled="option.disabled || codeEnabled && name != 'code'">
+    </button>
+</div>

@@ -1,0 +1,31 @@
+@buttonSize: 30px;
+
+.z-editor {
+    &-panel {
+        font-size: 14px;
+        border: 1px solid @blue;
+        background-color: @blue;
+
+        button {
+            background-color: @blue;
+            border: 0;
+            outline: 0;
+            padding: 0;
+            cursor: pointer;
+            width: @buttonSize;
+            height: @buttonSize;
+            color: @white;
+
+            &:hover:enabled,
+            &:focus:enabled {
+                background-color: @white;
+                color: @blue;
+            }
+
+            &:disabled {
+                color: rgba(255,255,255, 0.4);
+                cursor: not-allowed;
+            }
+        }
+    }
+}
