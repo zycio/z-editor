@@ -31,7 +31,7 @@ var app = angular.module('myApp', ['z-editor']);
 
 Create controller with data
 ```js
-app.controller('MyAppController', ['$scope', function() {
+app.controller('MyAppController', ['$scope', function($scope) {
     $scope.data = {
         html = '<div>Example data</div>'
     };
