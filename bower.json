@@ -1,7 +1,10 @@
 {
   "name": "z-editor",
   "description": "Simple WYSIWYG editor.",
-  "main": "src/index.js",
+  "main": [
+      "./dest/z-editor.js",
+      "./dest/z-editor.css"
+  ],
   "authors": [
     "zycio"
   ],
